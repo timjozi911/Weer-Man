@@ -71,6 +71,7 @@ class _WeatherPageState extends State<WeatherPage> {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           // city name
           Text(_weather?.cityName ?? "loading city name"),
